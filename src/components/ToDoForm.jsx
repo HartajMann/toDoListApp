@@ -6,7 +6,7 @@ function ToDoForm({addTask}) {
 
   const handleSubmit = () => {
     addTask(taskText);
-    setTaskText(''); // Clear the input field after adding the task
+    setTaskText(''); 
   };
 
   return (
@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginHorizontal: 20,
     marginTop: 20,
+    marginBottom: 40,
   },
   input: {
     flex: 1,
